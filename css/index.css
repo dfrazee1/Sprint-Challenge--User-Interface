@@ -144,3 +144,78 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My code starts here */
+
+/* Code for the top navigation bar and images on the home page */
+
+.top-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.big-image{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+
+/* code for the About page */
+
+.big-image2{
+    width:100%;
+    margin-top:25px;
+}
+
+.first-section{
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.second-section {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.second-section div{
+    width:45%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-right: 20px;
+    margin-left:20px;
+}
+
+.second-section span{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:25px;
+    padding-left:25px;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 9px;
+}
+
+.second-section img {
+    margin-top: 25px;
+}
+
+.second-section h1{
+    margin-top:10px;
+}
+
+.ssdiv{
+    border-bottom: 1px dashed black;
+}
+
+.third-section{
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
